@@ -47,8 +47,11 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="hidden lg:flex lg:col-span-2 justify-end gap-5">
-          <a href='https://pluto-learning-demo.vercel.app/signin' target="_blank"><button className="text-sm text-white/60 font-medium">Sign in</button></a>
+        <div className="hidden lg:flex lg:col-span-2 justify-end items-center gap-5">
+          <a href='https://pluto-learning-demo.vercel.app/signin' target="_blank">
+            {/* <button className="text-sm text-white/60 font-medium">Sign in</button> */}
+            <button className="text-sm text-white font-medium bg-[#6C47FF] px-5 py-2.5 rounded-lg">Sign in</button>
+          </a>
           <Link href={"/contact-us"}>
             <button className="text-sm text-white/60 font-medium bg-white/5 px-5 py-2.5 rounded-lg">
               Get a Demo
